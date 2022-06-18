@@ -1,0 +1,36 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.224.3/containers/ubuntu
+{
+	"image":"mcr.microsoft.com/vscode/devcontainers/universal:1-linux",
+
+	// Set *default* container specific settings.json values on container create.
+	"settings": {},
+
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [],
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "uname -a",
+
+	"customizations": {
+		"codespaces": {
+			"repositories": {
+				"lfraileorg/github-runners": {
+					"permissions": {
+						"permissions": "write-all"
+					}
+				}
+			}
+		}
+	},
+
+	"portsAttributes": {
+		"3000": {
+			"label": "test2"
+		}
+	}
+}
