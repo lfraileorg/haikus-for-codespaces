@@ -20,7 +20,10 @@
 		"codespaces": {
 			"repositories": {
 				"lfraileorg/github-runners":  {
-				     "permissions": {"contents": "write"}
+				     "permissions": {
+					     "contents": "write",
+						          "issues": "write",
+				     }
 				  }
 			}
 		}
