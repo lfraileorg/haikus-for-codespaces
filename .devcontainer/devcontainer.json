@@ -19,9 +19,9 @@
 	"customizations": {
 		"codespaces": {
 			"repositories": {
-				"lfraileorg/github-runners": {
-					"permissions": "write-all"
-				}
+				"lfraileorg/github-runners":  {
+				    "contents": "write"
+				  }
 			}
 		}
 	},
